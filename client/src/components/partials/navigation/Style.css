@@ -1,0 +1,134 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-navbar{
+  background-color: #F2F2F2 !important;
+  border: none !important;
+}
+
+#sidebar {
+  position: absolute;
+  width: 320px;
+}
+
+#sidebar .closemenu {
+  color: #000;
+  position: absolute;
+  right: 0;
+  z-index: 9999;
+  line-height: 20px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 22px;
+  top: 55px;
+  cursor: pointer;
+}
+
+#sidebar .pro-sidebar {
+  width: 100%;
+  min-width: 100%;
+  height: 150vh;
+}
+
+/* #sidebar .pro-sidebar.collapsed {
+  width: 20px;
+  min-width: 20px;
+} */
+
+#sidebar .pro-sidebar .pro-menu{
+  margin: 0 0 0 20px;
+}
+
+#sidebar .pro-sidebar-inner {
+  border: none;
+  background-color: #F2F2F2;
+}
+
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout .pro-sidebar-header{
+  border: none !important;
+}
+
+#sidebar .pro-sidebar-inner .pro-sidebar-layout {
+  overflow-y: hidden;
+}
+
+#sidebar .pro-sidebar-inner .pro-sidebar-layout ul {
+  text-align: center;
+}
+
+.pro-sidebar .pro-menu .text-list-pro {
+  color: rgb(146, 146, 146);
+  font-size: 23px;
+  text-align: start;
+  padding: 0 45px 20px;
+}
+
+.pro-sidebar .pro-menu .text-list-subs {
+  margin: 0px 0px 50px;
+  color: #929292;
+  font-size: 23px;
+  border-bottom: 1px solid #C9C9C9;
+  text-align: start;
+  padding: 0 45px 30px;
+}
+
+.pro-sidebar .pro-menu .text-list-logout {
+  color: #929292;
+  font-size: 23px;
+  text-align: start;
+  padding: 0 45px 30px;
+}
+
+#sidebar .pro-sidebar-inner .pro-sidebar-layout .active {
+  color: red;
+}
+
+@media only screen and (max-width: 720px) {
+  html {
+    overflow: hidden;
+  }
+  #sidebar .pro-sidebar.collapsed {
+    width: 10px;
+    min-width: 10px;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+ .closemenu{
+    display: none;
+  }
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item > .pro-item-content{
+  cursor: default !important;
+  font-size: 20px !important;
+}
+
+.img-profile{
+  width: 94px;
+  height: 94px;
+  object-fit: cover;
+  border: 3.5px solid black;
+}
+
+.userName{
+  font-weight: 700;
+  font-size: 22px;
+  margin: 10px 0 0;
+  color: #000000;
+}
+
+.subs-text{
+  margin: 0 0 30px !important;
+  padding: 0 0 23px;
+  font-weight: 750;
+  font-size: 17px;
+  line-height: 23px;
+  color: #D60000;
+  border-bottom: 1px solid #C9C9C9;
+}
+
+.img-nav{
+    margin: 20px 0 0;
+}

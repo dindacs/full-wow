@@ -1,0 +1,288 @@
+body{
+  background-color: #F2F2F2 !important;
+}
+
+/* ------------------- */
+/* Landing Page */
+/* ------------------- */
+
+.landing-book-img{
+  height: 100vh !important;
+  width: 100% !important;
+  background-image: url('../components/assets/img/logo/landing.png');
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+.left-landing{
+  margin: 0 100px;
+  padding: 20px 40px 10px;
+}
+
+.left-landing .img-logo-landing{
+  width: 35%;
+}
+
+.left-landing .text-lp{
+  padding: 0 20px;
+}
+
+.left-landing .desc-lp{
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+  width: 40%;
+  margin: -30px 0 20px;
+}  
+
+/* ------------------- */
+/* Main dashboard */
+/* ------------------- */
+
+.main-dashboard{
+  overflow: hidden;
+}
+
+.img-banner{
+  overflow: hidden;
+  width: 100%;
+}
+
+.dash-side-right{
+  margin: 0 50px 0 -2% !important;
+}
+
+.dash-side-right .title-list-book{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 34px;
+  color: #000000;
+  padding: 40px 0 30px !important;
+}
+
+/* ------------------- */
+/* Detail book */
+/* ------------------- */
+.about-book{
+  margin: 70px 0 0 40px !important;
+}
+
+.img-detail-book{
+  width: 300px;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 10px;
+  /* margin: 0 0 0 -15%; */
+}
+
+.about-book .desc-book{
+  /* margin: 0 -3%; */
+  width: 66%;
+}
+
+.about-book .title-book{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  font-size: 55px;
+  color: #000000;
+  margin: 0 0 0 35px;
+}
+
+.about-book .author-book{
+  font-size: 22px;
+  color: #929292;
+  margin: 0 0 0 40px;
+}
+
+.about-book .publication-jmlpages-book{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin: 25px 0 -10px 40px;
+}
+
+.about-book .ket-book{
+  font-size: 17px;
+  color: #929292;
+  margin: 10px 0 0 40px;
+}
+
+.about-book .isbn-book{
+  font-weight: 600;
+  font-size: 24px;
+  color: #D60000;
+  margin: 25px 0 0 40px;
+}
+
+.title-about-book{
+  font-family: Times New Roman;
+  font-weight: bold;
+  font-size: 36px;
+  color: #000000;
+  margin: 75px 0 0;
+  padding: 0 30px;
+}
+
+.sinopsis-book{
+  width: 90%;
+  font-size: 18px;
+  text-align: justify; 
+  color: #929292;  
+  margin: 15px 0 0;
+  padding: 0 30px;
+}
+
+.btn-detail-book{
+  padding: 20px 0;
+  margin: 30px 120px;
+}
+
+.btn-action{
+  border: none !important;
+  font-weight: 600 !important;
+  width: 145px;
+  height: 45px;
+}
+
+.btn-add-list{
+  background-color: #D60000 !important;
+  margin: 50px 15px 0 0 !important;
+}
+
+.btn-read-book{
+  background-color: #CDCDCDB2 !important;
+  margin: 50px 0 0 20px !important;
+  color: #000000 !important;
+}
+
+/* ------------------- */
+/* Subcribe */
+/* ------------------- */
+
+.subs{
+  margin: 4rem 0 0 -10% !important;
+  height: 815px;
+}
+
+.title-subs{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 41px;
+  color: #000000;
+}
+
+.desc-subs{
+  font-size: 18px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.form-attache{
+  width: 350px !important;
+  height: 50px;
+  background: #F2F2F2 !important;
+  border: 2px solid #BCBCBC !important;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 12px 10px !important;
+  color: #D60000 !important;
+  font-weight: 600;
+}
+
+/* ------- */
+input[type="file"] {
+  display: none;
+}
+/* ------- */
+
+/* ------------------- */
+/* Profil user */
+/* ------------------- */
+
+.profile-detail{
+  height: 340px;
+  object-fit: cover;
+  background: #FFD9D9;
+  border-radius: 8px;
+}
+
+.title-profile{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+}
+
+.img-profile-user{
+  width: 210px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-profile-user{
+  margin: 40px 38px 0 !important;
+}
+
+.desc-profile{
+  font-size: 13px;
+  color: #8A8C90;
+}
+
+/* ------------------- */
+/* Read book */
+/* ------------------- */
+.carousel-indicators .active {
+  background-color: #d60000 !important; 
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #df6464 !important; 
+}
+
+.img-corousel{
+  width: 100%;
+  height: 85vh;
+  /* object-fit: cover; */
+}
+
+/* ------------------- */
+/* list trans */
+/* ------------------- */
+/* .img-user-trans{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border: 3px solid black;
+} */
+
+/* .title-trans{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+} */
+
+/* ------------------- */
+/* Add book */
+/* ------------------- */
+.form-input-book{
+  height: 45px;
+  background: rgba(188, 188, 188, 0.25) !important;
+  border: 2px solid #BCBCBC !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 9px 14px;
+  display: inline-block;
+  color: #6c757d !important;
+}
+
+.btn-add-book{
+  border: none !important;
+  font-weight: 600 !important;
+  width: 200px !important;
+  height: 45px;
+  background-color: #FF0000 !important;
+}

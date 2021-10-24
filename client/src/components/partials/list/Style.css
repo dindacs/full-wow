@@ -1,0 +1,40 @@
+/* ------------------- */
+/* List Book */
+/* ------------------- */
+.card-book{
+  width: 200px;
+  border-radius: 10px;
+  background-color: #F2F2F2 !important;
+  border-radius: 0;
+  border: none !important;
+}
+
+.img-book{
+  height: 270px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-book .title-book{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 21px;
+  color: #000000;
+}
+
+.card-book .author-book{
+  font-size: 16px;
+  color: #929292 !important; 
+}
+
+/* ------------------- */
+/* List user */
+/* ------------------- */
+
+.title-trans{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}

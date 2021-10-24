@@ -1,0 +1,79 @@
+/* ------------------- */
+/* Modal */
+/* ------------------- */
+
+.modal-content{
+  width: 416px !important;
+  border-radius: 10px !important;
+  border: none !important;
+  margin: 0 45px;
+}
+
+.modal-body-sign{
+  padding: 20px 35px 35px !important;
+}
+
+.title-signup{
+  font-weight: 650;
+  font-size: 36px;
+  line-height: 49px;
+  color: #000;
+}
+
+.form-input{
+  width: 350px;
+  height: 50px;
+  background: rgba(188, 188, 188, 0.25) !important;
+  border: 2px solid #BCBCBC !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+  
+.btn-submit-signup{
+  background-color: #D60000 !important;
+  width: 100% !important;
+  border: none !important;
+}
+
+.text-acc{
+  font-size: 18px !important;
+  line-height: 25px !important;
+  color: #000000 !important;
+  margin: 0px 0 20px;
+}
+/* ------------------- */
+/* Button */
+/* ------------------- */
+.btn-lp{
+  border: none !important;
+  font-weight: 600 !important;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 5px;
+  width: 190px;
+  height: 50px;
+}
+
+.btn-lp:focus{
+  outline: none !important;
+}
+
+.btn-signup{
+  background-color: #D60000 !important;
+  margin: 30px 15px 0 20px !important;
+}
+
+.btn-signin{
+  background-color: rgba(205, 205, 205, 0.7) !important;
+  margin: 30px 0 0 15px !important;
+  color:#000 !important;
+  font-weight: 650 !important;
+}
+
+.btn-submit-payment{
+  border: none !important;
+  font-weight: 600 !important;
+  width: 350px !important;
+  height: 37px;
+  background-color: #D60000 !important;
+}
